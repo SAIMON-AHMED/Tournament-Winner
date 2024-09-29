@@ -1,5 +1,7 @@
-Tournament Winner Function
+#Tournament Winner Function
+
 Description:
+
 The tournamentWinner function takes in two inputs:
 
 competitions: An array of arrays, where each sub-array contains two teams that compete against each other.
@@ -25,7 +27,7 @@ How It Works:
 3. For each match, it updates the pointTable by adding 3 points to the winning team.
 4. It keeps track of the team with the highest score by comparing each team's points with the current maximum (max).
 5. At the end of the iteration, the function returns the team with the most points.
-6. 
+
 Time Complexity:
 O(n): The function iterates through the competitions array once, where n is the length of the competitions array.
 
